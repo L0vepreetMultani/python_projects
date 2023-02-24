@@ -8,4 +8,4 @@ urllib.request.urlretrieve(
     'climate.txt')
 climate_data = np.genfromtxt('climate.txt', delimiter=',', skip_header=1)
 climate_data
-print(climate_data)
+print('this is the data in a list', climate_data)
